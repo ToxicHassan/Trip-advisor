@@ -1,0 +1,28 @@
+@media screen and (max-width: 71rem) {
+    .container {
+        max-width: 60rem;
+    }
+    .nav-btns-menu {
+        display: block;
+    }
+    .nav-btns {
+        display: none;
+    }
+    #region {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .acount-svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #sign-in-btn {
+        display: none;
+    }
+    .home-btn {
+        flex-basis: 62%;
+        justify-content: space-between;
+    }
+}
